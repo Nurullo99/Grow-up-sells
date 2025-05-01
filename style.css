@@ -1,8 +1,141 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 
-:root{
-    --roboto:"Roboto", sans-serif;
-    --inter:"Inter", sans-serif;
+:root {
+    --roboto: "Roboto", sans-serif;
+    --inter: "Inter", sans-serif;
     --black: #050038
+}
+
+ul {
+    list-style: none;
+}
+
+.header_card-teleport {
+    text-decoration: none;
+    color: var(--black);
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    margin-top: 50px;
+}
+
+.container {}
+
+.header_cards {}
+
+.header_card {
+    display: flex;
+    column-gap: 150px;
+    align-items: center;
+}
+
+.header_card_title {
+    width: 118px;
+    height: 42px;
+    top: 35px;
+    left: 299px;
+    font-family: var(--roboto);
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 100%;
+    letter-spacing: 0%;
+
+}
+
+.header_card-types {
+    width: 525px;
+    height: 17px;
+    top: 46px;
+    left: 697px;
+    font-family: var(--inter);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    column-gap: 50px;
+}
+
+.header_card-sign {
+    width: 54px;
+    height: 21px;
+    font-family: var(--roboto);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-decoration: none;
+    color: var(--black);
+
+}
+
+.header_card-free {
+    padding: 16px 40px 16px 40px;
+    border-radius: 30px;
+    background-color: #0555FF;
+    color: white;
+    margin-left: 50px;
+    text-decoration: none;
+}
+
+.header_cards-ul {
+    display: flex;
+    column-gap: 35px;
+    margin-left: 70px;
+
+}
+
+.header_card-bigtitle {
+    margin-top: 170px;
+    width: 953px;
+    height: 214px;
+    font-family: var(--roboto);
+    font-weight: 900;
+    font-size: 96px;
+    line-height: 120px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin: auto;
+
+}
+
+.header_card-text {
+    width: 705px;
+    height: 62px;
+    font-family: var(--inter);
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin: auto;
+    margin-top: 35px;
+
+}
+
+.header_card-card2 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.header_card-discover {
+    text-decoration: none;
+    border-radius: 30px;
+    /* border: 1px solid black;*/
+    padding: 16px 30px 16px 30px;
+    color: black;
+    font-family: var(--inter);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    box-shadow: 0px 10px 40px 0px #B0C9FD4D;
+
+
 }
